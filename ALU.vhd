@@ -66,12 +66,21 @@ variable Qin: signed(7 downto 0) := (others=>'0');
 					
 				when "00011" =>  --ADD 
 					Qin := Qin + Data;
-					V<= deborde(Q0,Qin,Data);
+					V <= deborde(Q0,Qin,Data);
 					
 				
 				when "00100" =>  --SUB
 					Qin := Qin - Data;
-					V<= deborde(Q0,Qin,Data);
+					V <= deborde(Q0,Qin,Data);
+					
+				when "00101" =>  --ADC
+					
+				when "00110" =>  --SBC
+				
+				
+				when "00111" =>  --AND
+					Qin := Qin AND Data;
+					V <= '0';
 				
 				when others =>
 					Qin := (others=>'0');			
