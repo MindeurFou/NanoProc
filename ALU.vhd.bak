@@ -3,7 +3,20 @@ use IEEE.std_logic_1164.all;
 use IEEE.numeric_std.all;
 
 
-
+entity ALU is
+	port (
+	Data: in signed (7 downto 0);
+	Op: in std_logic_vector (4 downto 0);
+	Go: in bit;
+	Reset: in bit;
+	
+	Q: out std_logic_vector (7 downto 0);
+	Z: out bit;
+	C: out bit;
+	N: out bit;
+	V: out bit
+	);
+end entity;
 
 architecture behav of ALU is
 
