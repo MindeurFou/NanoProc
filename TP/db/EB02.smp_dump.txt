@@ -1,0 +1,60 @@
+
+State Machine - |NanoProc|adress
+Name adress.REG_VAL adress.MEM_REG adress.REG_MEM adress.REG_REG 
+adress.REG_REG 0 0 0 0 
+adress.REG_MEM 0 0 1 1 
+adress.MEM_REG 0 1 0 1 
+adress.REG_VAL 1 0 0 1 
+
+State Machine - |NanoProc|condition
+Name condition.VS condition.VC condition.LS condition.GT condition.PL condition.MI condition.LE condition.GE condition.LT condition.HI condition.CS condition.CC condition.NE condition.EQ condition.NVR condition.ALWS 
+condition.ALWS 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+condition.NVR 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+condition.EQ 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+condition.NE 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+condition.CC 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+condition.CS 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+condition.HI 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+condition.LT 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+condition.GE 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+condition.LE 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+condition.MI 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+condition.PL 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+condition.GT 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+condition.LS 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+condition.VC 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+condition.VS 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |NanoProc|op
+Name op.BR op.NOP op.CMP op.TST op.SETV op.CLRV op.SETC op.CLRC op.BINV op.BSET op.BCLR op.BTST op.LSR op.ASR op.ASL op.Op_ROR op.Op_ROL op.DEC op.INC op.NEG op.COM op.EOR op.IOR op.Op_AND op.SUBC op.ADDC op.SUB op.ADD op.SET op.CLR op.MOVE 
+op.MOVE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+op.CLR 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+op.SET 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+op.ADD 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+op.SUB 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+op.ADDC 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+op.SUBC 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+op.Op_AND 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+op.IOR 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+op.EOR 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+op.COM 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+op.NEG 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+op.INC 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+op.DEC 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+op.Op_ROL 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+op.Op_ROR 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+op.ASL 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+op.ASR 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+op.LSR 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+op.BTST 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+op.BCLR 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+op.BSET 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+op.BINV 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+op.CLRC 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+op.SETC 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+op.CLRV 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+op.SETV 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+op.TST 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+op.CMP 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+op.NOP 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+op.BR 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 

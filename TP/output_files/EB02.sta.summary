@@ -1,0 +1,77 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'Clk'
+Slack : -18.217
+TNS   : -25128.617
+
+Type  : Slow Model Setup 'ReadRam'
+Slack : -6.712
+TNS   : -49.563
+
+Type  : Slow Model Setup 'ReadReg'
+Slack : -0.869
+TNS   : -5.082
+
+Type  : Slow Model Hold 'Clk'
+Slack : 0.391
+TNS   : 0.000
+
+Type  : Slow Model Hold 'ReadReg'
+Slack : 0.780
+TNS   : 0.000
+
+Type  : Slow Model Hold 'ReadRam'
+Slack : 2.771
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'Clk'
+Slack : -1.380
+TNS   : -2153.380
+
+Type  : Slow Model Minimum Pulse Width 'ReadRam'
+Slack : -1.380
+TNS   : -9.380
+
+Type  : Slow Model Minimum Pulse Width 'ReadReg'
+Slack : -1.380
+TNS   : -9.380
+
+Type  : Fast Model Setup 'Clk'
+Slack : -7.405
+TNS   : -10519.013
+
+Type  : Fast Model Setup 'ReadRam'
+Slack : -2.587
+TNS   : -18.237
+
+Type  : Fast Model Setup 'ReadReg'
+Slack : 0.152
+TNS   : 0.000
+
+Type  : Fast Model Hold 'Clk'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast Model Hold 'ReadReg'
+Slack : 0.376
+TNS   : 0.000
+
+Type  : Fast Model Hold 'ReadRam'
+Slack : 1.215
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'Clk'
+Slack : -1.380
+TNS   : -2153.380
+
+Type  : Fast Model Minimum Pulse Width 'ReadRam'
+Slack : -1.380
+TNS   : -9.380
+
+Type  : Fast Model Minimum Pulse Width 'ReadReg'
+Slack : -1.380
+TNS   : -9.380
+
+------------------------------------------------------------

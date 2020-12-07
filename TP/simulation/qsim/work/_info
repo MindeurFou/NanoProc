@@ -1,0 +1,165 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\flore\Documents\UTT\EB02\VHDL\TP\simulation\qsim
+vALU
+Z1 I:RNjzYPM1BHNo0>PYDZAb1
+Z2 VKG5352A8@PV8m]CTK33?<1
+Z3 dC:\Users\flore\Documents\UTT\EB02\VHDL\TP\simulation\qsim
+Z4 w1604334487
+Z5 8EB02.vo
+Z6 FEB02.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|EB02.vo|
+Z9 o-work work -O0
+Z10 n@a@l@u
+Z11 !s100 7;7]A7be^g9gO6zVgk0@Z2
+Z12 !s108 1604334488.167000
+Z13 !s107 EB02.vo|
+!i10b 1
+!s85 0
+!s101 -O0
+vALU_vlg_check_tst
+Z14 !s100 mn4I`?1iG766@o5_Ch@4U0
+Z15 IkH3fIH>[9z2nFJKmcWCd:3
+Z16 VMS6ZJ1MNgE4KeU[ZbMAX_2
+R3
+Z17 w1604334486
+Z18 8EB02.vt
+Z19 FEB02.vt
+L0 63
+R7
+r1
+31
+Z20 !s108 1604334488.267000
+Z21 !s107 EB02.vt|
+Z22 !s90 -work|work|EB02.vt|
+R9
+Z23 n@a@l@u_vlg_check_tst
+!i10b 1
+!s85 0
+!s101 -O0
+vALU_vlg_sample_tst
+Z24 !s100 ^=Qo7_>Hd?1n:0P9Uj>_J1
+Z25 I;:kIU515Waj^Xh1dA7Z@j3
+Z26 Vj233ob6MIcQL[QUA><3iR0
+R3
+R17
+R18
+R19
+L0 29
+R7
+r1
+31
+R20
+R21
+R22
+R9
+Z27 n@a@l@u_vlg_sample_tst
+!i10b 1
+!s85 0
+!s101 -O0
+vALU_vlg_vec_tst
+Z28 I==M2KeDoJ;LDe3V7`4jJX0
+Z29 V>bFnnU[^IecCM5^<l3;]W0
+R3
+R17
+R18
+R19
+Z30 L0 391
+R7
+r1
+31
+R20
+R21
+R22
+R9
+Z31 n@a@l@u_vlg_vec_tst
+Z32 !s100 MCfJ:eXf8FTIBb0lWOBmK3
+!i10b 1
+!s85 0
+!s101 -O0
+vNanoProc
+Z33 !s100 VVmfHdV6MaW<nSF[AnNUF0
+Z34 I3;oJODDkCO4k9m2JVaI5B3
+Z35 VGRjFJ6fgUm]5@hRQe2k[D3
+R3
+Z36 w1607338852
+R5
+R6
+L0 31
+R7
+r1
+31
+R8
+R9
+Z37 n@nano@proc
+!i10b 1
+!s85 0
+Z38 !s108 1607338853.339000
+R13
+!s101 -O0
+vNanoProc_vlg_check_tst
+!i10b 1
+!s100 1a2_4;44ZSW24aUT=F<B31
+IIM_fB0EkaUjjU:FPfMP1l0
+Z39 VAXEH;=k?KfzgkIU7jgo321
+R3
+Z40 w1607338850
+R18
+R19
+L0 67
+R7
+r1
+!s85 0
+31
+Z41 !s108 1607338853.894000
+Z42 !s107 EB02.vt|
+R22
+!s101 -O0
+R9
+Z43 n@nano@proc_vlg_check_tst
+vNanoProc_vlg_sample_tst
+!i10b 1
+Z44 !s100 5Rz=]NRnonkH@7bOIQQ5S1
+Z45 I?lF:4lDYLkRJQPj[GFDVC1
+Z46 VLLQ4<4O^;SRoQDg6nTi573
+R3
+R40
+R18
+R19
+L0 29
+R7
+r1
+!s85 0
+31
+R41
+R42
+R22
+!s101 -O0
+R9
+Z47 n@nano@proc_vlg_sample_tst
+vNanoProc_vlg_vec_tst
+!i10b 1
+!s100 SQJ=GBTHlPNV[799Qm:0>2
+I5OYAfW4>coD8L>ZDo<6RL1
+Z48 V_D5E0_X`znXJG7J5c>K=_0
+R3
+R40
+R18
+R19
+L0 1647
+R7
+r1
+!s85 0
+31
+R41
+R42
+R22
+!s101 -O0
+R9
+Z49 n@nano@proc_vlg_vec_tst

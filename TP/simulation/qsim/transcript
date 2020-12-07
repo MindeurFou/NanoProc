@@ -1,0 +1,147 @@
+# do EB02.do 
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module NanoProc
+# 
+# Top level modules:
+# 	NanoProc
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module NanoProc_vlg_sample_tst
+# -- Compiling module NanoProc_vlg_check_tst
+# -- Compiling module NanoProc_vlg_vec_tst
+# 
+# Top level modules:
+# 	NanoProc_vlg_vec_tst
+# vsim -L cycloneii_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -t 1ps -novopt work.NanoProc_vlg_vec_tst 
+# Loading work.NanoProc_vlg_vec_tst
+# Loading work.NanoProc
+# Loading cycloneii_ver.cycloneii_lcell_comb
+# Loading cycloneii_ver.cycloneii_lcell_ff
+# Loading cycloneii_ver.cycloneii_io
+# Loading cycloneii_ver.cycloneii_mux21
+# Loading cycloneii_ver.cycloneii_dffe
+# Loading cycloneii_ver.cycloneii_asynch_io
+# Loading cycloneii_ver.cycloneii_clkctrl
+# Loading cycloneii_ver.cycloneii_mux41
+# Loading cycloneii_ver.cycloneii_ena_reg
+# Loading work.NanoProc_vlg_sample_tst
+# Loading work.NanoProc_vlg_check_tst
+# Loading cycloneii_ver.CYCLONEII_PRIM_DFFE
+# ** Warning: Design size of 4 instances exceeds ModelSim ALTERA recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim Altera version. Expect performance to be adversely affected.
+# ERROR! Vector Mismatch for output port N :: @time = 1045000.000 ps
+#      Expected value = 0
+#      Real value = 1
+# ERROR! Vector Mismatch for output port PC_OUT[0] :: @time = 1045000.000 ps
+#      Expected value = 00000000000000000000000000000000
+#      Real value = 00000000000000000000000000000111
+# ERROR! Vector Mismatch for output port PC_OUT[1] :: @time = 1045000.000 ps
+#      Expected value = 00000000000000000000000000000000
+#      Real value = 00000000000000000000000000000111
+# ERROR! Vector Mismatch for output port PC_OUT[2] :: @time = 1045000.000 ps
+#      Expected value = 00000000000000000000000000000000
+#      Real value = 00000000000000000000000000000111
+# ERROR! Vector Mismatch for output port RamData[2] :: @time = 1045000.000 ps
+#      Expected value = 00000000
+#      Real value = 00100100
+# ERROR! Vector Mismatch for output port RamData[5] :: @time = 1045000.000 ps
+#      Expected value = 00000000
+#      Real value = 00100100
+# ERROR! Vector Mismatch for output port REG_OUT[5] :: @time = 1045000.000 ps
+#      Expected value = 00000000
+#      Real value = 10100000
+# ERROR! Vector Mismatch for output port REG_OUT[7] :: @time = 1045000.000 ps
+#      Expected value = 00000000
+#      Real value = 10100000
+# ERROR! Vector Mismatch for output port ROMDATA_OUT[1] :: @time = 1045000.000 ps
+#      Expected value = 000000000000000000000000
+#      Real value = 101011111111110101011110
+# ERROR! Vector Mismatch for output port ROMDATA_OUT[2] :: @time = 1045000.000 ps
+#      Expected value = 000000000000000000000000
+#      Real value = 101011111111110101011110
+# ERROR! Vector Mismatch for output port ROMDATA_OUT[3] :: @time = 1045000.000 ps
+#      Expected value = 000000000000000000000000
+#      Real value = 101011111111110101011110
+# ERROR! Vector Mismatch for output port ROMDATA_OUT[4] :: @time = 1045000.000 ps
+#      Expected value = 000000000000000000000000
+#      Real value = 101011111111110101011110
+# ERROR! Vector Mismatch for output port ROMDATA_OUT[6] :: @time = 1045000.000 ps
+#      Expected value = 000000000000000000000000
+#      Real value = 101011111111110101011110
+# ERROR! Vector Mismatch for output port ROMDATA_OUT[8] :: @time = 1045000.000 ps
+#      Expected value = 000000000000000000000000
+#      Real value = 101011111111110101011110
+# ERROR! Vector Mismatch for output port ROMDATA_OUT[10] :: @time = 1045000.000 ps
+#      Expected value = 000000000000000000000000
+#      Real value = 101011111111110101011110
+# ERROR! Vector Mismatch for output port ROMDATA_OUT[11] :: @time = 1045000.000 ps
+#      Expected value = 000000000000000000000000
+#      Real value = 101011111111110101011110
+# ERROR! Vector Mismatch for output port ROMDATA_OUT[12] :: @time = 1045000.000 ps
+#      Expected value = 000000000000000000000000
+#      Real value = 101011111111110101011110
+# ERROR! Vector Mismatch for output port ROMDATA_OUT[13] :: @time = 1045000.000 ps
+#      Expected value = 000000000000000000000000
+#      Real value = 101011111111110101011110
+# ERROR! Vector Mismatch for output port ROMDATA_OUT[14] :: @time = 1045000.000 ps
+#      Expected value = 000000000000000000000000
+#      Real value = 101011111111110101011110
+# ERROR! Vector Mismatch for output port ROMDATA_OUT[15] :: @time = 1045000.000 ps
+#      Expected value = 000000000000000000000000
+#      Real value = 101011111111110101011110
+# ERROR! Vector Mismatch for output port ROMDATA_OUT[16] :: @time = 1045000.000 ps
+#      Expected value = 000000000000000000000000
+#      Real value = 101011111111110101011110
+# ERROR! Vector Mismatch for output port ROMDATA_OUT[17] :: @time = 1045000.000 ps
+#      Expected value = 000000000000000000000000
+#      Real value = 101011111111110101011110
+# ERROR! Vector Mismatch for output port ROMDATA_OUT[18] :: @time = 1045000.000 ps
+#      Expected value = 000000000000000000000000
+#      Real value = 101011111111110101011110
+# ERROR! Vector Mismatch for output port ROMDATA_OUT[19] :: @time = 1045000.000 ps
+#      Expected value = 000000000000000000000000
+#      Real value = 101011111111110101011110
+# ERROR! Vector Mismatch for output port ROMDATA_OUT[21] :: @time = 1045000.000 ps
+#      Expected value = 000000000000000000000000
+#      Real value = 101011111111110101011110
+# ERROR! Vector Mismatch for output port ROMDATA_OUT[23] :: @time = 1045000.000 ps
+#      Expected value = 000000000000000000000000
+#      Real value = 101011111111110101011110
+# ERROR! Vector Mismatch for output port PC_OUT[3] :: @time = 1100000.000 ps
+#      Expected value = 00000000000000000000000000000000
+#      Real value = 00000000000000000000000000001000
+# ERROR! Vector Mismatch for output port ROMDATA_OUT[0] :: @time = 1100000.000 ps
+#      Expected value = 000000000000000000000000
+#      Real value = 110000000001101100000011
+# ERROR! Vector Mismatch for output port ROMDATA_OUT[9] :: @time = 1100000.000 ps
+#      Expected value = 000000000000000000000000
+#      Real value = 110000000001101100000011
+# ERROR! Vector Mismatch for output port ROMDATA_OUT[22] :: @time = 1100000.000 ps
+#      Expected value = 000000000000000000000000
+#      Real value = 110000000001101100000011
+# ERROR! Vector Mismatch for output port C :: @time = 1320000.000 ps
+#      Expected value = 0
+#      Real value = 1
+# ERROR! Vector Mismatch for output port ROMDATA_OUT[7] :: @time = 1980000.000 ps
+#      Expected value = 000000000000000000000000
+#      Real value = 110000000000001011000000
+# ERROR! Vector Mismatch for output port Z :: @time = 1980000.000 ps
+#      Expected value = 0
+#      Real value = 1
+# ERROR! Vector Mismatch for output port PC_OUT[4] :: @time = 2420000.000 ps
+#      Expected value = 00000000000000000000000000000000
+#      Real value = 00000000000000000000000001010001
+# ERROR! Vector Mismatch for output port PC_OUT[6] :: @time = 2420000.000 ps
+#      Expected value = 00000000000000000000000000000000
+#      Real value = 00000000000000000000000001010001
+# ERROR! Vector Mismatch for output port PC_OUT[5] :: @time = 4070000.000 ps
+#      Expected value = 00000000000000000000000000000000
+#      Real value = 00000000000000000000000001100000
+# ERROR! Vector Mismatch for output port V :: @time = 4510000.000 ps
+#      Expected value = 0
+#      Real value = 1
+#          37 mismatched vectors : Simulation failed !
+# ** Note: $finish    : EB02.vt(1643)
+#    Time: 5 us  Iteration: 0  Instance: /NanoProc_vlg_vec_tst/tb_out

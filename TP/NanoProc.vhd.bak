@@ -1,0 +1,29 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.numeric_std.all;
+use work.PGM_DEF.all;
+entity NanoProc is
+ port(
+ clk, raz : in bit;
+ romdata: out integer
+ );
+ end entity;
+
+architecture behav of NanoProc is
+type T_RAM is array (integer range 0 to 255) of integer range 0 to 255;
+type T_REG is array (integer range 0 to 3) of integer range 0 to 255;
+signal RAM : T_RAM;
+begin
+ process(clk,raz)
+ variable pc: integer:=0;
+ begin
+ if raz='1' then
+ pc:=0;
+ romdata<=ROMPGM(pc);
+ for i in 0 to 255 loop RAM(i)<=0; end loop;
+ elsif clk'event and clk='1' then
+ romdata<=ROMPGM(pc); --permet de voir l’instruction en cours
+ pc:=pc+1;
+ end if;
+ end process;
+end architecture;
